@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Website Template with Welcome Page</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            width: 100%;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            margin: 0.5rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .search-bar {
+            display: flex;
+            width: 100%;
+            max-width: 300px;
+        }
+        .search-bar input[type="text"] {
+            flex-grow: 1;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+        }
+        .search-bar button {
+            padding: 0.5rem;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+        .search-bar button:hover {
+            background-color: #555;
+        }
+        main {
+            padding: 2rem;
+            min-height: calc(100vh - 160px);
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+        .welcome-section {
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 2rem;
+        }
+        .feature-item {
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: calc(100% - 20px);
+            max-width: 300px;
+            margin: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .welcome-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Enhanced Website</h1>
+</header>
+
+<nav>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+    </div>
+</nav>
+
+<main>
+    <div class="welcome-section">
+        <h2>Welcome to My Enhanced Website</h2>
+        <p>We're glad to have you here! Explore our services and discover what we can offer to help you succeed.</p>
+        <!-- Ensure the image path is correct relative to your file structure -->
+        <img src="Polish_20240827_182400312-1.jpg" alt="Certificate" class="welcome-image">
+    </div>
+    
+    <div class="features">
+        <div class="feature-item">
+            <h3>Feature One</h3>
+            <p>Discover our first amazing feature that can help you achieve great results in no time.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Feature Two</h3>
+            <p>Our second feature is designed to provide you with the tools you need to excel.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Feature Three</h3>
+            <p>Learn more about our third feature that offers innovative solutions for your needs.</p>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 My Enhanced Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
